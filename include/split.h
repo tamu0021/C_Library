@@ -1,2 +1,6 @@
+/* Define */
+#define SUCCESS 1
+#define ERROR_CANNOT_ALLOCATE_MEMORY 999
+
 /* Declaration split function */
-extern char** Split(char *string, char splitWord);
+extern unsigned short Split(char *string, char splitWord, char **splitedWords);
